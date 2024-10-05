@@ -1,0 +1,29 @@
+{
+    "name": "ts-template",
+    "version": "1.0.0",
+    "description": "A TypeScript project template for FiveM",
+    "main": "index.js",
+    "scripts": {
+        "watch": "webpack --config webpack.config.js --watch --mode development",
+        "build": "webpack --config webpack.config.js --mode production"
+    },
+    "author": "JustGodWork",
+    "license": "MIT",
+    "devDependencies": {
+        "@citizenfx/client": "2.0.10191-1",
+        "@citizenfx/server": "2.0.10191-1",
+        "@types/node": "^22.7.4",
+        "swc-loader": "^0.2.6",
+        "tsconfig-paths-webpack-plugin": "^4.1.0",
+        "typescript": "^5.4.4",
+        "webpack": "^5.95.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-merge": "^6.0.1"
+    },
+    "dependencies": {
+        "eventemitter2": "^6.4.9",
+        "fs": "^0.0.1-security",
+        "reflect-metadata": "^0.2.2",
+        "webpack-filter-warnings-plugin": "^1.2.1"
+    }
+}

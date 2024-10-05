@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log(`Hello from server! Current NodeJS version: ${process.version}`),console.log("Awesome"),console.log("Shared"),console.log("Content");const e=new EventEmitter2;e.on("example",(e=>{console.log(e)})),e.emit("example","EventEmitter server successfully works, that's obvious!")})();
