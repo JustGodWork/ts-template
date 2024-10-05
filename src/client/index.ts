@@ -1,3 +1,4 @@
+import 'reflect-metadata'; /* Required for decorators */
 import { myAwesomeSharedContent } from "@public/core/myAwesomeSharedContent";
 
 console.log('Hello from client!');
